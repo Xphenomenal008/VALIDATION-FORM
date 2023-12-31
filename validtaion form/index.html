@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/871f9d0282.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="cointaner">
+        <h1 class="bla">VALIDATION-FORM </h1>
+        <div class="display">
+            <form> 
+                <div class="logo"><h1><i class="fa-solid fa-file-export"></i></h1></div>
+                
+                <div class="namefield">
+                    <div></div> <P>NAME</P>  <input type="text" placeholder="ENTER YOUR NAME"  id="inputfield" onkeyup="validate()">
+                 <div><span id="inputerror"></span>   </div>   
+</div>
+                <div class="numberfield">
+                   <P>NUMBER</P>  <input type="text" placeholder="ENTER YOUR NUMBER"  id="numberfield" onkeyup="validateN()">
+                    <span id="numbererror"></span>
+                </div>
+                <div class="emailid">
+                   <p>EMAILID</p> <input type="text" placeholder="ENTER YOUR EMAILID"  id="emailid" onkeyup="validateE()">
+                    <span id="emailerror"></span>
+                </div>
+                <div class="chracterfield">
+                    <P>MESSAGE</P> <input type="text" placeholder="MESSGE"  id="chracterfield" onkeyup="validateC()">
+                    <span id="chractererror"></span>
+                </div>
+                <div class="click">
+                    <button id="btn" onclick="return button()" 
+                    >sumbit</button>
+                    <span id="bton"></span>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

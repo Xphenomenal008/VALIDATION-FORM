@@ -1,0 +1,133 @@
+.cointaner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+.bla{
+   position: fixed;
+   top: 0;
+   background-color: bisque;
+}
+}
+.display{
+    height:100vh;
+    width: 170vh;
+    border: 2px solid;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+
+}
+.logo{
+   position: absolute;
+     top: 0px;
+   
+}
+
+.display input{
+    font-size:  15px;
+}
+ form h1{
+    padding-left: 70px;
+    font-size: 50px;
+ }
+ span{
+    
+    color: brown;
+    font-size: 20px;
+ }
+ span i{
+    color: rgb(14, 137, 14);
+     
+
+ } 
+ #btn{
+   display: flex;
+justify-content: center;
+align-items: center;
+    padding: 10px;
+    margin: 20px;
+height: 35px;
+width: 85px;
+font-weight: 400;
+font-size: 20px;
+ }
+ .click{
+   display: flex;
+ }
+  .click span{
+   font-size: 800;
+  }
+  
+   .namefield {
+
+      padding-right: 200px;
+      margin-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size:25px;
+ padding-bottom:25
+ 
+   } 
+   .namefield p{
+      padding-right: 20px;
+   }
+   .namefield input{
+      font-size: 25px;
+   }
+
+   .emailid{
+      padding-right: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      padding-bottom:25px;
+   }
+    .emailid p{
+      padding-right: 20px;
+   }
+   .emailid input{
+      font-size: 25px;
+   }
+
+   .chracterfield{
+      padding-right: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      padding-bottom:25px
+      
+      
+   }
+   .chracterfield p{
+      padding-right: 20px;
+   }
+   .chracterfield input{
+      font-size: 25px;
+      width: 35px;
+      height: 100px;
+      width: 300px
+   }
+
+   
+.numberfield{
+   padding-right: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+   padding-bottom:25px
+}
+.numberfield p{
+   padding-right: 20px;
+}
+.numberfield input{
+   font-size: 25px;
+}
